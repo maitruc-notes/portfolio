@@ -1,6 +1,6 @@
 const Data = {
   WebsiteTitle: "Portfolio | Mai Truc",
-  HeaderTitle: "Artist's Portfolio",
+  HeaderTitle: "Mai Truc's Portfolio",
   FooterText: "All works are licensed under CC BY-NC-SA 4.0",
   AboutEmail: "Your Email Address",
   AboutEmailSubject: "Subject of the Email",
