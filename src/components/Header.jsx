@@ -13,9 +13,8 @@ function Header() {
 
   return (
     <div className={HeaderCSS.container}>
-      <Link to="/" style={{ textDecoration: "none", color: "white" }}>
+      <Link to="/" style={{ textDecoration: "none", color: "#3e3329" }}>
         <h1>{data.HeaderTitle}</h1>
-        <br/>
       </Link>
       <div className={HeaderCSS.hamburger}>
         <Hamburger toggled={menuOpen} toggle={setMenuOpen} />
@@ -34,6 +33,7 @@ function Header() {
           </li>
         </ul>
       </nav>
+      <br/>
     </div>
   );
 }
