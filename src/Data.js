@@ -1,14 +1,14 @@
 const Data = {
-  WebsiteTitle: "Portfolio | Mai Truc",
-  HeaderTitle: "Mai Truc's Portfolio",
+  WebsiteTitle: "mai truc",
+  HeaderTitle: "mai truc's art space",
   FooterText: "All works are licensed under CC BY-NC-SA 4.0",
   AboutEmail: "Your Email Address",
   AboutEmailSubject: "Subject of the Email",
-  AboutHeading: "About Me",
+  AboutHeading: "about Mai Truc",
   AboutTextParagraph1:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Mai Truc is a self-taught Vietnamese artist. Before pursueing art fulltime in 2025, she was in engineering field.",
   AboutTextParagraph2:
-    " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Working primarily with ink, she aims to achieve a balance between expressive brushwork and detail precision. Her core themes include close-up portrait, seascape, and botanical theme.",
   AboutButtonText: "Say Hey!",
 };
 
