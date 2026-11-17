@@ -8,7 +8,7 @@ const Data = {
   AboutTextParagraph1:
     "Mai Truc is a self-taught Vietnamese artist. Before pursuing art full-time in 2025, she worked in engineering field.",
   AboutTextParagraph2:
-    "Working primarily with ink, she aims to balance expressive brushwork and detail precision. Her core themes include close-up portraits, seascapes, and botanicals.",
+    "Painting primarily with ink, she aims to balance expressive brushwork and detail precision. Her core themes include close-up portraits, seascapes, and botanicals.",
   AboutButtonText: "Say Hallo!",
 };
 
