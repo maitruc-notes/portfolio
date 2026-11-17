@@ -3,8 +3,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #9c9189;
-    color: white;
+    background-color: #ebeae4;
+    color: #3e3329;
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
     position: relative;
 }
 

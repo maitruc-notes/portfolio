@@ -14,7 +14,8 @@ function Header() {
   return (
     <div className={HeaderCSS.container}>
       <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-        <h1 style={{ fontWeight: "800" }}>{data.HeaderTitle}</h1>
+        <h1>{data.HeaderTitle}</h1>
+        <br>
       </Link>
       <div className={HeaderCSS.hamburger}>
         <Hamburger toggled={menuOpen} toggle={setMenuOpen} />
