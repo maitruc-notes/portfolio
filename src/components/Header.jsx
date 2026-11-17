@@ -33,7 +33,6 @@ function Header() {
           </li>
         </ul>
       </nav>
-      <br/>
     </div>
   );
 }
