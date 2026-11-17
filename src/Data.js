@@ -2,8 +2,7 @@ const Data = {
   WebsiteTitle: "mai truc's art space",
   HeaderTitle: "mai truc's art space",
   FooterText: "All works are licensed under CC BY-NC-SA 4.0",
-  AboutEmail: "maitruc.letterbox@gmail.com",
-  AboutEmailSubject: "Subject of the Email",
+  AboutEmail: "contact@maitrucart.com",
   AboutHeading: "about mai truc",
   AboutTextParagraph1:
     "Mai Truc is a self-taught Vietnamese artist. Before pursuing art full-time in 2025, she worked in engineering field.",
