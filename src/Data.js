@@ -1,15 +1,15 @@
 const Data = {
-  WebsiteTitle: "mai truc",
+  WebsiteTitle: "mai truc's art space",
   HeaderTitle: "mai truc's art space",
   FooterText: "All works are licensed under CC BY-NC-SA 4.0",
-  AboutEmail: "Your Email Address",
+  AboutEmail: "maitruc.letterbox@gmail.com",
   AboutEmailSubject: "Subject of the Email",
-  AboutHeading: "about Mai Truc",
+  AboutHeading: "about mai truc",
   AboutTextParagraph1:
-    "Mai Truc is a self-taught Vietnamese artist. Before pursueing art fulltime in 2025, she was in engineering field.",
+    "Mai Truc is a self-taught Vietnamese artist. Before pursuing art full-time in 2025, she worked in engineering field.",
   AboutTextParagraph2:
-    "Working primarily with ink, she aims to achieve a balance between expressive brushwork and detail precision. Her core themes include close-up portrait, seascape, and botanical theme.",
-  AboutButtonText: "Say Hey!",
+    "Working primarily with ink, she aims to balance expressive brushwork and detail precision. Her core themes include close-up portraits, seascapes, and botanicals.",
+  AboutButtonText: "Say Hallo!",
 };
 
 export default Data;
