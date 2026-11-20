@@ -21,8 +21,8 @@
 
 @media (max-width: 1024px) {
     .gridContainer {
-        grid-template-columns: 1fr;
+        column-count: 1;
+        column-gap: 18px;
         padding: 20px;
-        gap: 18px;
     }
 }
