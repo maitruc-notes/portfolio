@@ -42,7 +42,7 @@ function About() {
           <h1>{data.AboutHeading}</h1>
           <p>{data.AboutTextParagraph1}</p>
           <p>{data.AboutTextParagraph2}</p>
-          <p>Contact her directly via {data.AboutEmail}</p>
+          <p>Contact her directly via <i>{data.AboutEmail}</i></p>
         </div>
       </div>
       <Footer />
