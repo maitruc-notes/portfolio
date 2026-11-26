@@ -40,6 +40,7 @@ function Portfolio() {
 }
 
 function ImageWrapper({ src, index }) {
+  const artworkName = getName(src);
   return (
     <motion.div
       variants={imageVariants}
@@ -48,10 +49,12 @@ function ImageWrapper({ src, index }) {
       viewport={{ once: false, amount: 0.1 }}
       style={{ willChange: "opacity, transform" }}
       className={PortfolioCSS.imageWrapper}
+      data-alt={artworkName}
     >
       <img
         src={src}
-        alt={`Portfolio ${index + 1}`}
+        alt={artworkName}
+        title={artworkName}
         className={PortfolioCSS.image}
         draggable="false"
         decoding="async"
@@ -59,5 +62,15 @@ function ImageWrapper({ src, index }) {
     </motion.div>
   );
 }
+function getName(filepath) {
+  // Extract filename from path (handles / or \)
+  const name = filepath.replace(/^.*[\/\\]/, '');
+  
+  // Remove extension and added random string; delimiter = '0000'
+  const firstDelimiter = name.indexOf('0000');
 
+  // Replace '-' with ' ', '_' with ',', and return
+  const map = { "-" : " ", "_" : "," };
+  return name.substring(0, firstDelimiter).replace(/[-_]/g, (char) => map[char]);
+}
 export default Portfolio;

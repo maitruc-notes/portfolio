@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Google+Sans+Code:ital,wght,MONO@0,300..800,0..1;1,300..800,0..1&display=swap');
 * {
   margin: 0;
   padding: 0;
 }
 
 .App {
-  font-family: "Aleo", serif;
+  background-color: #ebeae4;
+  font-family: "Google Sans Code", monospace;
   font-optical-sizing: auto;
-  background-color: #222831;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MONO" 0.5;
 }

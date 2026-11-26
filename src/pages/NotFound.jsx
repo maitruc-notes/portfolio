@@ -8,17 +8,28 @@ function NotFound() {
   return (
     <div style={styles.container}>
       <Header />
-      <div style={styles.content}>
-        <img src={notFoundImage} alt="Not Found" style={styles.image} />
-        <h1 style={styles.title}>Page Not Found</h1>
-        <p style={styles.message}>
-          Oops! The page you are looking for does not exist. It might have been
-          moved or deleted.
-        </p>
-        <Link to="/" style={styles.homeLink}>
-          Go back to Home
-        </Link>
-      </div>
+      <div style="text-align: center;
+        margin: 0;
+        padding: 0;">
+        <div style="font-size: 6rem;
+          font-weight: 800;
+          line-height: 1;
+          color: #705748;
+          margin-bottom: 16px;">404</div>
+        <h1 style="font-size: 1.75rem;
+            margin-bottom: 12px;">Page not found</h1>
+        <p style ="font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 28px;">Sorry, the page you are looking for doesn't exist or has been moved. Please check the URL or head back home.</p>
+        <a href="/" style="display: inline-block;
+          background-color: #705748;
+          color: #ffffff;
+          text-decoration: none;
+          font-weight: 600;
+          padding: 12px 24px;
+          border-radius: 8px;
+          transition: background-color 0.2s ease;">Back to Homepage</a>
+        </div>
       <Footer />
     </div>
   );
@@ -29,36 +40,6 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     minHeight: "100vh",
-  },
-  content: {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    flex: 1,
-    textAlign: "center",
-    padding: "0px",
-  },
-  image: {
-    maxWidth: "100%",
-    height: "200px",
-  },
-  title: {
-    fontSize: "2.5rem",
-    margin: "20px 0",
-    color: "lightgrey",
-  },
-  message: {
-    fontSize: "1.25rem",
-    color: "grey",
-    marginBottom: "20px",
-  },
-  homeLink: {
-    textDecoration: "none",
-    color: "#007bff",
-    fontSize: "1.25rem",
-    fontWeight: "bold",
-    marginTop: "20px",
   },
 };
 

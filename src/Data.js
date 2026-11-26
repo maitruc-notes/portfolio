@@ -1,15 +1,14 @@
 const Data = {
-  WebsiteTitle: "Portfolio | Artists",
-  HeaderTitle: "Artist's Portfolio",
-  FooterText: "© 2024 Artist's Portfolio. All rights reserved.",
-  AboutEmail: "Your Email Address",
-  AboutEmailSubject: "Subject of the Email",
-  AboutHeading: "About Me",
+  WebsiteTitle: "mai trúc's art space",
+  HeaderTitle: "mai trúc's art space",
+  FooterText: "All works are licensed under CC BY-NC-SA 4.0",
+  AboutEmail: "contact@maitrucart.com",
+  AboutHeading: "about mai trúc",
   AboutTextParagraph1:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Mai Trúc is a Vietnamese artist who likes to think of art-making as a way to pay homage to life. Before pursuing art full-time in 2025, she worked in the  engineering field.",
   AboutTextParagraph2:
-    " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  AboutButtonText: "Say Hey!",
+    "Painting primarily with ink, she aims to balance expressive brushwork and detail precision. Her core themes include close-up portraits, seascapes, and botanicals.",
+  AboutButtonText: "Say Hallo!",
 };
 
 export default Data;

@@ -42,9 +42,7 @@ function About() {
           <h1>{data.AboutHeading}</h1>
           <p>{data.AboutTextParagraph1}</p>
           <p>{data.AboutTextParagraph2}</p>
-          <button onClick={handleClick} className={AboutCSS.contactButton}>
-            {data.AboutButtonText}
-          </button>
+          <p>Contact her directly via <i>{data.AboutEmail}</i></p>
         </div>
       </div>
       <Footer />
